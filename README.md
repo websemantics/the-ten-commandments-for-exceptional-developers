@@ -1,4 +1,6 @@
-[![image](https://raw.githubusercontent.com/websemantics/the-ten-commandments-for-exceptional-developers/gh-pages/assets/png/tablet-w1920.png)](https://github.com/websemantics/the-ten-commandments-for-exceptional-developers)
+[![image](https://raw.githubusercontent.com/websemantics/the-ten-commandments-for-exceptional-developers/gh-pages/assets/png/tablet-w1920.png)](https://raw.githubusercontent.com/websemantics/the-ten-commandments-for-exceptional-developers/gh-pages/assets/png/tablet-w1920.png)
+
+### Click [here](http://websemantics.github.io/the-ten-commandments-for-exceptional-developers/) to see all,
 
 ### Make it your own
 

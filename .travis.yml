@@ -1,0 +1,8 @@
+script: bash ./deploy.sh
+language: node_js
+node_js:
+- '5'
+env:
+  global:
+  - GH_REF: github.com/websemanticsio/the-ten-commandments-for-exceptional-developers.git
+  - secure: U6dUWRIUCoHrhNrDbASXFrffzF1U0k/hGHqgs+ARBDwfFL3vaKVwo5L0MlwAyjfCqnt+XjFXSB2OMbjrZaQA4A3fVlmPwlx3OE0CJw3fbu9sl6qTRs3++4PbDiT9mfMMSZFzRuw2GuJN9L7s5yU4Z0/1KbIjsV1P31kqy5x4TyNrvrhL4toQ/0DmWs+9ix/UG4EtbfF/REs9DPQiAARJfKLw5FmJ6AX6/Y6Z1I4PoWqVwf6T4J2VHBxZVq/wlPhh8doO1VY86a+wy4ed1DxYeEgAdrbmJ5iuTrBe1UsMe0ssnxiKqOgMsHk2RUJKvHZqPJMU0/ZlJf0OcQKk+YGkQykF+/IhCGOaNn9Lyxsg/1CmzPUlq4K/yt/oawIRozTBRncHJPbpaQTbaT30mcZVK7JFM5JBQsQAOhV6WDsseqw6Y85i/1gHFoFTUtQvBQKYtITo9OAMXRU0jO9f22Y5GZmqmOWXwf2ygYW8tUth8Rvx2ZwCgdf9NKbKauEt+9HsY/L+LzhC+BNjDT5zaQc4fLhTGEQppS2lIgPy1oMvVs6gZOydF2FUjWptYCL7KKyrjkGZ9G9fu+I5qFXoRLDxIR9D5nuwN1BFTcuCm5/fhRWJJX6tIPr1hj+mhzDgaGcGwp9WvTX91VlFmHzOwC5lMKivdiuea0PHEJUWWaA7eQU=

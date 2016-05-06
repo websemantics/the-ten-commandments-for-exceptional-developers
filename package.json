@@ -1,0 +1,25 @@
+{
+  "name": "the-ten-commandments-for-exceptional-developers",
+  "version": "0.1.0",
+  "homepage": "https://websemantics.io",
+  "description": "The Ten Commandments For Exceptional Developers.",
+  "author": "Adnan M.Sagar, PhD. <adnan@websemantics.ca>",
+  "license" : "MIT",
+  "keywords": [
+    "ibuild.io",
+    "websemantics.io",
+    "artwork",
+    "media"
+  ],
+  "scripts": {
+    "postinstall": "gulp"
+  },
+  "repository": "websemantics/the-ten-commandments-for-exceptional-developers",
+  "bugs": {
+    "url": "https://github.com/websemantics/the-ten-commandments-for-exceptional-developers/issues"
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-svg-smart": "*"
+  }
+}

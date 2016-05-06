@@ -9,6 +9,7 @@
   <style type="text/css">.ui.message{ background-color: #F3F3F4} .ui.attached.segment { background-color: #FAFAFA} img {max-height: 128px;}code{background-color:#E0E0E0;padding:.25em .3em;font-family:Lato;font-weight:700}.container:first-child{padding:5em 0}.first,.ui.dividing.header{margin-top:5em}.ui.dividing.header:first-child{margin-top:0}</style>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.js"></script>
+  <script type="text/javascript" src="https://cdn.rawgit.com/websemantics/bragit/0.1.1/bragit.js"></script>
   <script> $(document).ready(function() {$('img').popup();});</script>
 </head>
   <div class="ui grid container">
@@ -17,7 +18,43 @@
        <div class="ui">
          <h1 class="ui header">{{ html.title }}</h1>
          <p>{{ html.description }}</p>
-         <a class="ui blue button" href="{{ html.link.url }}">{{ html.link.text }}</a>
+         <div class="buttons">
+           <a class="ui labeled tiny button github-websemantics-bragit-stars">
+             <div class="ui brand tiny button">
+               <i class="star icon"></i> Stars
+             </div>
+             <div class="ui basic brand left pointing label">
+               <i class="spinner loading icon"></i>
+             </div>
+           </a>
+           <a class="ui left labeled tiny button github-websemantics-bragit-forks">
+             <div class="ui basic brand right pointing label">
+               <i class="spinner loading icon"></i>
+             </div>
+             <div class="ui brand tiny button">
+               <i class="fork icon"></i> Forks
+             </div>
+           </a>
+           <a class="ui labeled tiny button github-websemantics-bragit-watchers">
+             <div class="ui brand tiny button">
+               <i class="eye icon"></i> Watchers
+             </div>
+             <div class="ui basic brand left pointing label">
+               <i class="spinner loading icon"></i>
+             </div>
+           </a>
+           <a class="ui left labeled tiny button github-websemantics-bragit-issues">
+             <div class="ui basic brand right pointing label">
+               <i class="spinner loading icon"></i>
+             </div>
+             <div class="ui brand tiny button">
+               <i class="info circle icon"></i> Issues
+             </div>
+           </a>
+           <a class="ui brand tiny button semanti github-websemantics-bragit-github">
+               <i class="github icon"></i> Github
+           </a>
+         </div>
        </div>
      </div>
     </div>

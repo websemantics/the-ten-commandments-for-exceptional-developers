@@ -1,7 +1,7 @@
 script: bash ./deploy.sh
 language: node_js
 node_js:
-  - "0.10"
+- '5'
 env:
   global:
   - GH_REF: github.com/websemanticsio/the-ten-commandments-for-exceptional-developers.git
